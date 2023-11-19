@@ -1,6 +1,7 @@
 
 import './App.css';
 import Conventer from './Conventer';
+import Steps from './components/Steps';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Conventer/>
+      <Steps/>
     </>
   )
 }
